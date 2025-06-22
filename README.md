@@ -6,6 +6,9 @@ Medication Management System App
 The application should allows patients and caretakers to record their data, for patients they can
 see their medication daily, and for caretakers dashboard should the streak,adherence rate, overall view, recent activities, calendar view, notifications.
 
+## Links ## 
+ GitHub Link - https://github.com/kavyanimmaturi/Medication-App.git
+
 ## Platform used ## 
    Visual Studio
 
