@@ -1,0 +1,295 @@
+.patient-tracker-container{
+    background-image: linear-gradient(to right, rgb(131, 131, 241), rgb(158, 151, 238),rgb(77, 244, 77));
+    height:320px;
+    border-radius: 28px;
+    width:80%;
+    padding: 30px;
+    margin:30px;
+    margin-left:190px;
+    display: flex;
+    flex-direction:column;
+}
+.tracker-status{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.tracker-img{
+    background:  rgb(93, 151, 233);
+    height:80px;
+    width:80px;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.greet{
+    color: #fff;
+    font-size:36px;
+    font-family: "Roboto";
+    font-weight: 800;
+}
+.view{
+    color: #fff;
+    font-size:24px;
+    font-family: "Roboto";
+}
+.status-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   margin-top: 24px;
+}
+.streaks-boxes{
+    width:350px;
+    height:100px;
+    border: 1px solid rgb(227, 227, 233);
+    background: transparent;
+    border-radius:12px;
+    padding: 10px;
+    margin: 8px;
+    
+}
+.streaks{
+    margin: 10px;
+}
+.circle-img{
+    color: #fff;
+}
+.streaks-boxes h1{
+    color: #fff;
+}
+.streaks-boxes p{
+    color: #fff;
+    font-size: 20px;
+    font-weight:500;
+}
+.medication-status{
+    height:580px;
+    background: #fff;
+    border-radius: 25px;
+    width:50%;
+    border: 2px solid rgb(237, 228, 228);
+    margin-left:190px;
+}
+.todays-status{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin: 30px;
+}
+.calendar{
+    color: blue;
+}
+.medication-title{
+    font-size: 28px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+.schedule-box{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin:20px;
+    gap: 20px;
+    height:100px;
+    background: #fff;
+    border-radius:12px;
+    border: 2px solid rgb(237, 228, 228);
+   padding: 20px;
+}
+.schedule-set{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+}
+.complete-schedule{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+   
+}
+.daily-schedule{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    padding-left: 8px;
+     
+}
+.medication-title{
+   font-size: 25px;
+    font-family: "Roboto";
+    font-weight:600;
+    color: #000;
+}
+.medication-para{
+    margin: 5px;
+    font-size: 16px;
+}
+.circle{
+    color: rgb(148, 148, 240);
+        
+}
+.tick-img{
+    color: #fff;
+}
+.medication{
+   font-size:23px;
+    color: #000;
+}
+.tablets{
+    font-size: 16px;
+}
+.clock-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width:100px;
+    height:30px;
+    border-radius:12px;
+    border: 1px solid #918e8e;
+    background: #fff;
+}
+.add-photo-container{
+    height:280px;
+    border: 4px dotted rgba(237,237,228);
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-img{
+    color: rgb(81, 81, 81);
+    padding: 8px;
+}
+.add-proof{
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 600;
+    gap: 10px;
+}
+.take-medication-photo{
+    font-size: 18px;
+    color:#918e8e;
+}
+.photo-box{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgba(237,237,228);
+    margin: 18px;
+    width:180px;
+    height:50px;
+    border-radius:12px;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.camera-img{
+    color: #151515;
+}
+.take-photo{
+    color: #000;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+.mark-as-taken{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius:12px;
+    margin:15px;
+    width:900px;
+    height:50px;
+    border: 2px solid #fff;
+    background: rgb(2, 186, 91);
+    color: #fff;
+    gap:8px;
+}
+.mark-text{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+.success-cont{
+     display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    padding-left: 8px;
+    border: 2px solid rgb(99, 237, 99);
+    border-radius: 18px;
+    margin: 20px;
+    height:200px;
+    background: rgb(220, 244, 220);
+}
+.success-message{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color:green;
+}
+.success-text{
+    font-size:24px;
+    line-height:40px;
+}
+.success-para{
+    font-size: 18px;
+    font-family: "Roboto";
+    color:green;
+}
+.daily-set-success{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 8px;
+    border: 2px solid rgb(99, 237, 99);
+    border-radius: 18px;
+    margin: 20px;
+    height:140px;
+    background: rgb(220, 244, 220);
+    padding:10px;
+    margin-top:40px;
+}
+.tick-set-success{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin: 20px;
+    color: green;
+}
+.tick-completed{
+    color:rgb(101, 103, 101);
+}
+.tick-text{
+    font-size:20px;
+    color: rgb(73, 128, 73);
+}
+.completed-set{
+    margin: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width:100px;
+    height:30px;
+    border-radius:12px;
+    border: 1px solid #918e8e;
+    background: #a1ee9f;
+    border-width: 0px;
+    color: #144412;
+}

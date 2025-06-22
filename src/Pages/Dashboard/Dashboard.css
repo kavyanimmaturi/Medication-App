@@ -1,0 +1,72 @@
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(240, 235, 235);
+    height:100px;
+    padding-left:90px;
+    
+}
+.dashboard-items{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+.dashboard-image{
+    background-image: linear-gradient(to right, rgb(29, 112, 228), rgb(78, 212, 78));
+    height:60px;
+    width:70px;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.dashboard-menu{
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+}
+h1{
+    font-size:28px;
+    font-family: "Roboto";
+    font-weight: 600;
+    padding-bottom:4px;
+}
+p{
+   font-size:16px;
+    font-family: "Roboto";
+    font-weight:400; 
+    gap: 24px;
+    color: rgb(89, 89, 87);
+}
+.button-box{
+    width:220px;
+    height:50px;
+    margin-top: 30px;
+    border-radius:12px;
+    border: 1px solid #918e8e;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-right: 30px;
+}
+.logo{
+    margin: 10px;
+}
+.switch-btn{
+    border: none;
+    background: none;
+    font-size: 18px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

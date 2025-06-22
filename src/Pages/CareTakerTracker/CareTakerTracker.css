@@ -1,0 +1,446 @@
+.care-taker-container{
+    background-image: linear-gradient(to left, rgb(131, 131, 241), rgb(158, 151, 238),rgb(77, 244, 77));
+    height:320px;
+    border-radius: 28px;
+    width:80%;
+    padding: 30px;
+    margin:30px;
+    margin-left:190px;
+    display: flex;
+    flex-direction:column;
+}
+.care-taker-status{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.tracker-image{
+    background:  rgb(95, 224, 100);
+    height:80px;
+    width:80px;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.taker-greet{
+    color: #fff;
+    font-size:36px;
+    font-family: "Roboto";
+    font-weight: 800;
+}
+.taker-text{
+    color: #fff;
+    font-size:24px;
+    font-family: "Roboto";
+}
+.care-taker-dashboard{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   margin-top: 24px;
+}
+.care-taker-box{
+    width:350px;
+    height:100px;
+    border: 1px solid rgb(249, 249, 252);
+    background: transparent;
+    border-radius:12px;
+    padding:18px;
+    margin:12px;
+}
+.care-taker-box h1{
+    color: #fff;
+    font-size: 24px;
+}
+.care-taker-box p{
+    color: #fff;
+    font-size: 20px;
+    font-weight:500;
+}
+.tabs-container{
+    display: flex;
+    height:20px;
+    border: 2px solid #656363;
+     background-color:rgb(250, 244, 244);
+    border-radius:8px;
+    border-width: 0px;
+    width:80%;
+    padding: 30px;
+    margin:30px;
+    margin-left:190px;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+.tabs-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap:310px;
+  padding-left: 30px;
+ 
+}
+.tabs-section button{
+    background: transparent;
+    border-width: 0px;
+    cursor: pointer;
+    font-size:16px;
+    font-family: "Roboto";
+    font-weight:400;
+}
+
+.tab-active{
+    height:20px;
+    border: 2px solid #8e0404;
+     background-color:rgb(250, 244, 244);
+    border-radius:8px;
+    border-width: 0px;
+    width:80%;
+    padding: 30px;
+}
+.overview-cont1{
+     height:320px;
+    background: #fff;
+    border-radius:12px;
+    width:40%;
+    border: 2px solid rgb(237, 228, 228);
+    margin-left:180px;
+   
+}
+.overview-cont2{
+     height:320px;
+    background: #fff;
+    border-radius:12px;
+    width:39%;
+    border: 2px solid rgb(237, 228, 228);
+    margin-left:30px;
+}
+.overview-boxes-cont{
+    display: flex;
+    flex-direction: row;
+}
+.overview-box{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin: 30px;
+}
+.status-cal{
+    color: blue;
+}
+.todays-text{
+font-weight: 600;
+font-family: "Roboto";
+}
+.medication-set-status{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 24px;
+}
+.daily-set{
+    display: flex;
+    flex-direction:column;
+    padding: 5px;
+    gap: 10px;
+}
+.daily-text{
+    font-size: 22px;
+    font-family: "Roboto";
+    font-weight: 530;
+}
+.time-text{
+    font-family: "Roboto";
+    font-weight: 530;
+}
+.pending-btn{
+    background: red;
+    width:100px;
+    border-radius:28px;
+    height: 30px;
+    border-width: 0px;
+    color: #fff;
+}
+
+.actions-set{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.action-box{
+    margin: 24px;
+}
+.actions-box{
+   display: flex;
+    flex-direction: row;
+    gap:5px;
+    margin: 30px;
+    border: 2px solid rgb(248, 244, 244);
+    border-radius: 12px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+.actions-box p {
+    color: black;
+    font-size: 16px;
+    font-weight: 580;
+}
+.monthly-progress-cont{
+    border: 2px solid rgb(238, 222, 222);
+    border-radius:8px;
+    width:80%;
+    padding:10px;
+    margin:30px;
+    margin-left:190px;
+}
+.progress-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.overall-progress{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+}
+.text{
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+.progress-bar{
+   height:20px;
+    width:100%;
+    background:white;
+    border-radius: 24px;
+    border: 2px solid #fff;
+}
+.progress{
+    height:20px;
+    width:85%;
+    background:black;
+    border-radius: 24px;
+    border: 2px solid #fff;
+}
+
+.recent-box{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    height:120px;
+    border: 2px solid rgb(249, 244, 244);
+   border-radius:12px;
+   margin: 15px;
+}
+.todays-status{
+    display: flex;
+    flex-direction: column;
+}
+.recent-set{
+    display: flex;
+    flex-direction:row;
+     padding: 15px;
+    margin: 15px;
+    gap:20px;
+}
+
+.recent-photo-box{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.recent-status{
+    height:780px;
+    background: #fff;
+    border-radius: 25px;
+    width:80%;
+    border: 2px solid rgb(237, 228, 228);
+    margin-left:190px;
+}
+.photo-box{
+    border-radius: 20px;
+}
+.tick{
+    color:#fff;
+    background-color: rgb(133, 235, 133);
+    border-width: 0px;
+    border-radius:24px;
+
+}
+.wrong-tick{
+    color:#fff;
+    background-color: rgb(214, 11, 11);
+    border-radius: 20px;
+    
+}
+
+.missed-btn{
+    background: red;
+    color: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    width:100px;
+    height:30px;
+    text-align: center;
+    padding-top: 5px;
+} 
+.calendar-container{
+    display: flex;
+    flex-direction:column;
+
+} 
+.calendar-container{
+display: flex;
+    flex-direction:column;
+   height:480px;
+    background: #fff;
+    border-radius: 25px;
+    width:30%;
+    border: 2px solid rgb(237, 228, 228);
+    margin-left:250px;
+    padding: 30px;
+}
+.calendar-text{
+    font-weight: 600;
+    padding: 20px;
+    margin-left: 12px;
+    font-weight:50px;
+
+}
+.calendar-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    gap: 12px;
+    padding: 16px;
+    color: black;
+    font-size:24px;
+    margin-left: 24px;
+}
+.calendar-header button{
+    padding: 6px 12px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    gap:24px;
+}
+.calendar-grid{
+    display: grid;
+    grid-template-columns: repeat(7,0fr);
+    gap:10px;
+    color:rgb(11, 11, 11);
+    font-size: 20px;
+    margin-left:24px;
+}
+.calendar-view{
+    display: flex;
+}
+.calendar-box{
+    display: flex;
+    flex-direction: row;
+}
+.daily-details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    padding:20px;
+}
+.patient-details{
+    margin-top: 20px;
+    border: 2px solid rgb(173, 173, 252);
+    background-color: rgb(197, 197, 234);
+    border-radius:18px;
+    height:100px;
+    width:550px;
+}
+.patient-details div{
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+    color: blue;
+    gap: 12px;
+}
+.patient-details p {
+     padding:10px;
+    color: rgb(111, 111, 246);
+    gap: 12px;
+}
+.email-notification{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;  
+}
+.notification-msg{
+display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin-left:36px;
+    gap: 10px;
+}
+.toggle{
+    margin-right: 24px;
+}
+.email-address{
+    margin-left: 40px;
+    padding: 20px;
+    gap: 12px;
+}
+.email{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+.email-input{
+    width: 100%;
+    height: 40px;
+    border-radius:10px;
+    border-color: #fff;
+    border: 2px solid #eee8e8;
+}
+.email-input:hover{
+   border-color: #fff;
+   border: 2px solid #eee8e8;
+}
+.separator{
+    margin: 20px;
+}
+.email-input::placeholder{
+    margin-left: 20px;
+}
+.recent-status1{
+    height:420px;
+    background: #fff;
+    border-radius: 25px;
+    width:80%;
+    border: 2px solid rgb(237, 228, 228);
+    margin-left:190px;
+}
+.email-address p{
+    padding: 12px;
+}
+.settings-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right:170px;
+    height:50px;
+    
+}
+.save-btn{
+border-radius:12px;
+background-color: green;
+color: #fff;
+padding: 8px;
+border-width: 0px;
+font-size:18px;
+}

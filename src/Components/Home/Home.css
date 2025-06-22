@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.home-container{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  padding-top:24px;
+  background-image: linear-gradient(to right, rgb(143, 195, 226), rgb(152, 222, 152));
+  height: 100vh;
+}
+.home{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+}
+.home-image{
+    background: linear-gradient(to right, rgb(29, 112, 228), rgb(78, 212, 78));
+    height:80px;
+    width: 80px;
+    color: white;
+    border-radius:18px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.home-title{
+    font-size:50px;
+    font-weight:600;
+    font-family: "Roboto";
+    gap:28px;
+    margin-bottom:18px;
+}
+.home-para{
+   font-size:24px;
+   color: rgb(78, 77, 77);
+   font-family: "Roboto";
+    
+}
+.span{
+    margin-left:160px;
+}
+.home-section-cards{
+   display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  padding-top:24px;
+}
+.patient-card1{
+    height:500px;
+    width: 500px;
+    border: 3px solid rgb(227, 227, 233);
+    border-radius:10px;
+    margin: 24px;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 20px;
+}
+.patient-card2{
+    height:500px;
+    width: 500px;
+    border: 2px solid rgb(227, 227, 233);
+    border-radius:10px;
+    margin: 24px;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 20px;
+}
+.image{
+    background:lightskyblue;
+    height:60px;
+    width: 60px;
+    color: rgb(87, 31, 240);
+     border-radius:10px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.title{
+    color:blue;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight:595;
+    padding:8px;
+}
+.caption{
+    color:rgb(81, 81, 83);
+    font-size:16px;
+    font-family: Roboto;
+    line-height: 24px;
+}
+.card-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+li::marker{
+    color: rgb(4, 118, 183);
+}
+li{
+    padding-top: 15px;
+    line-height:24px;
+    font-size:21px;
+    color: rgb(35, 35, 36);
+    font-family: "Roboto";
+}
+.list-items::marker{
+    color: green;
+}
+.button{
+    margin-top:10px;
+    width:390px;
+    height:50px;
+    border-radius:10px;
+    border-width: 0px;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 580;
+    cursor: pointer;
+}
+.patient-btn{
+background: blue;
+    color: #ffffff;
+    
+}
+.care-taker-btn{
+    background:green;
+    color: #ffffff;
+}
+.patient-card1:hover{
+    border-color:rgb(155, 155, 234);
+     box-shadow:1px 1px 2px rgb(97, 97, 229);
+}
+.patient-card2:hover{
+    border-color:rgb(204, 231, 163);
+      box-shadow:1px 1px 2px rgb(90, 232, 100);
+}
